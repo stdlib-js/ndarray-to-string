@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-09)
+## Unreleased (2026-04-10)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`8bac83f`](https://github.com/stdlib-js/stdlib/commit/8bac83f2664cdc3a7023421d7ab583c9d8b3b1eb) - **docs:** update examples _(by Athan Reines)_
 -   [`47e4985`](https://github.com/stdlib-js/stdlib/commit/47e4985d18efb25b0fc00c6818fccdf547c9113e) - **feat:** add `ndarray/to-string` [(#10899)](https://github.com/stdlib-js/stdlib/pull/10899) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 
 </details>
