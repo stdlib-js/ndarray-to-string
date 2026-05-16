@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2026 The Stdlib Authors.
@@ -16,16 +16,24 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Serialize an ndarray as a string.
+* Serializes an ndarray as a string.
 *
-* @module @stdlib/ndarray-to-string
+* ## Notes
+*
+* -   The function does **not** serialize data outside of the buffer region defined by the ndarray view.
+*
+* @param x - input ndarray
+* @returns string representation
 *
 * @example
 * var array = require( '@stdlib/ndarray-array' );
-* var ndarray2string = require( '@stdlib/ndarray-to-string' );
 *
 * var x = array( [ [ 1.0, 2.0 ], [ 3.0, 4.0 ] ] );
 * // returns <ndarray>
@@ -33,12 +41,9 @@
 * var str = ndarray2string( x );
 * // returns <string>
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function ndarray2string( x: ndarray ): string;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = ndarray2string;
