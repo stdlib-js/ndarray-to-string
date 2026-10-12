@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-03)
+## Unreleased (2026-10-12)
 
 <section class="features">
 
 ### Features
 
+-   [`03dc637`](https://github.com/stdlib-js/stdlib/commit/03dc637c88649be394fe826eda0ca395f5698ff3) - add float16 dtype support to `ndarray/to-string` [(#15870)](https://github.com/stdlib-js/stdlib/pull/15870)
 -   [`47e4985`](https://github.com/stdlib-js/stdlib/commit/47e4985d18efb25b0fc00c6818fccdf547c9113e) - add `ndarray/to-string` [(#10899)](https://github.com/stdlib-js/stdlib/pull/10899)
 
 </section>
@@ -22,6 +23,7 @@
 
 <details>
 
+-   [`03dc637`](https://github.com/stdlib-js/stdlib/commit/03dc637c88649be394fe826eda0ca395f5698ff3) - **feat:** add float16 dtype support to `ndarray/to-string` [(#15870)](https://github.com/stdlib-js/stdlib/pull/15870) _(by Samarth Kolarkar)_
 -   [`8bac83f`](https://github.com/stdlib-js/stdlib/commit/8bac83f2664cdc3a7023421d7ab583c9d8b3b1eb) - **docs:** update examples _(by Athan Reines)_
 -   [`47e4985`](https://github.com/stdlib-js/stdlib/commit/47e4985d18efb25b0fc00c6818fccdf547c9113e) - **feat:** add `ndarray/to-string` [(#10899)](https://github.com/stdlib-js/stdlib/pull/10899) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 
@@ -35,10 +37,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
+-   Samarth Kolarkar
 
 </section>
 
